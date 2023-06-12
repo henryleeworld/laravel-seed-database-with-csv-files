@@ -11,6 +11,7 @@ class UserSeeder extends CsvSeeder
 	{
 		$this->table = 'users';
 		$this->filename = base_path().'/database/seeders/csvs/users.csv';
+        $this->should_trim = true;
 	}
 
 	public function run()
