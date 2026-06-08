@@ -1,4 +1,4 @@
-# Laravel 12 透過 CSV 檔案對資料庫進行資料填充
+# Laravel 13 透過 CSV 檔案對資料庫進行資料填充
 
 引入 flynsarmy 的 csv-seeder 套件來擴增透過 CSV 檔案對資料庫進行資料填充，方便填充測試用的資料至資料庫。
 
@@ -24,5 +24,5 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/7307FBV.png)
+![](https://i.imgur.com/OAoMhQ7.png)
 > 對資料庫進行資料填充

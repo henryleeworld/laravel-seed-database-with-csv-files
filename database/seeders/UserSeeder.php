@@ -14,14 +14,13 @@ class UserSeeder extends CsvSeeder
         $this->should_trim = true;
 	}
 
-	public function run()
+    /**
+     * Run the database seeders.
+     */
+    public function run(): void
 	{
-		// Recommended when importing larger CSVs
 		DB::disableQueryLog();
-
-		// Uncomment the below to wipe the table clean before populating
 		DB::table($this->table)->truncate();
-
 		parent::run();
 	}
 }
